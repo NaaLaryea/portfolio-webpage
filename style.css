@@ -1,11 +1,32 @@
-#nav-bar {
-  color: bisque;
-  padding: 3px;
+#navbar {
+  background-color: #a7775a;
+  padding: 20px;
+  position:fixed;
+  top:0px;
+  right: 0px;
+  width: 100%;
 }
-#welcome-section{
+#navbar ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+}
 
+#welcome-section{
+  background: bisque;
 }
 #projects{
-
+  justify-content: center;
 }
-.project-tile
+.project-tile{
+  font-style: italic;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    background-color: rgb(167, 192, 201);
+    width: fit-content;
+  }
+}
