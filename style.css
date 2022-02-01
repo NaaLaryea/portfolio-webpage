@@ -1,26 +1,47 @@
+main {
+  background-color: lightgoldenrodyellow;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+}
+
 #navbar {
   background-color: #a7775a;
   padding: 20px;
-  position:fixed;
-  top:0px;
+  position: fixed;
+  top: 0px;
   right: 0px;
   width: 100%;
+  height: 1rem;
 }
-#navbar ul{
+#navbar ul {
   display: flex;
   margin: 0;
   padding: 0;
   justify-content: center;
   list-style-type: none;
 }
-
-#welcome-section{
-  background: bisque;
+#navbar ul li a {
+  color: #fff;
+  padding: 30px;
+  text-decoration: none;
 }
-#projects{
+/* section {
+  padding: 20px;
+  margin: 0px;
+} */
+
+#welcome-section {
+  background: bisque;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-.project-tile{
+
+#projects {
+  justify-content: center;
+}
+.project-tile {
   font-style: italic;
 }
 
